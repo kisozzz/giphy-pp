@@ -585,6 +585,19 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@giphy/js-types@^4.0.3":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-4.1.0.tgz#987b184bf848c81092ba61ab10895096eefa78de"
+  integrity sha512-+qSN4Mx4TmrjLQm4SC0I/ZBkb5eWM94sljXwfjIlqn0GMSR3geqEqwmE9Uf/ldgzFh+XMMCasQjIdUl2nWc++Q==
+
+"@giphy/react-native-sdk@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@giphy/react-native-sdk/-/react-native-sdk-1.7.0.tgz#df75283b7afba13a4518da26f2f079a54242a969"
+  integrity sha512-mCIqtPkDAstL+BDTbC1EQ4SiRkND3zd9uLKUeR4RkK2AhjRTUIheGzfxOZrdR014LVwcwKw5s9qpogoXr66mgw==
+  dependencies:
+    "@giphy/js-types" "^4.0.3"
+    type-fest "^2.10.0"
+
 "@types/glob@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.3.tgz#e6ba80f36b7daad2c685acd9266382e68985c183"
@@ -3192,6 +3205,11 @@ gh-pages@^2.0.1:
     globby "^6.1.0"
     graceful-fs "^4.1.11"
     rimraf "^2.6.2"
+
+giphy-api@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/giphy-api/-/giphy-api-2.0.2.tgz#458b8733f50818b602c7e582a75a3b3a8d7680cb"
+  integrity sha512-vZaLQhgMF0mDQSNpqooe4Zqoe2dWGqVYhh7Ar6I41BRtcZtfupr9avT23IIPScKBYfb3qAfiKQRQyKgLi8Lcxw==
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -6375,6 +6393,11 @@ type-check@~0.3.2:
   resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
   dependencies:
     prelude-ls "~1.1.2"
+
+type-fest@^2.10.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.12.0.tgz#ce342f58cab9114912f54b493d60ab39c3fc82b6"
+  integrity sha512-Qe5GRT+n/4GoqCNGGVp5Snapg1Omq3V7irBJB3EaKsp7HWDo5Gv2d/67gfNyV+d5EXD+x/RF5l1h4yJ7qNkcGA==
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
